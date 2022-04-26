@@ -1,0 +1,4 @@
+links = //a[@class="cst_ctn"]/@href
+title = //h1[@class="article-headline"]/text()
+subTitle = //h2[@class="article-subheadline"]/text()
+body = //article[@class="article"]/div/p[not(last)]//text()
